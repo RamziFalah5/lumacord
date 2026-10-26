@@ -12,6 +12,7 @@ The project is released under the [MIT License](../LICENSE), copyright (c) 2026 
 | DM Sans 5.3.0 and Instrument Serif 5.3.0 | Installed Fontsource packages declare OFL-1.1; both full notices in `public/licenses/` match their installed originals byte-for-byte | Keep copyright and OFL notices with distributed fonts, including production assets |
 | Third-party build/test dependencies | Versions and integrity records in `package-lock.json`; installed package license metadata reviewed | Retain the lockfile; dependencies keep their own licenses and are not relicensed as project MIT code |
 | Screenshots and preview GIF in `media/` | Real captures of the running application with empty credential fields, regenerated after logo removal | No browser chrome, personal account information or external reference frames included |
+| Preview MP4 attached to v1.0.0 | Genuine application-only browser recording of OFF/pull/ON/reveal/pull/OFF | No desktop UI, personal information or reference footage; distributed as a release asset rather than committed video |
 
 Direct tooling licenses: Vite is MIT; TypeScript and Playwright are Apache-2.0; `@types/node` is MIT. Installed transitive tooling declares MIT, ISC, BSD-3-Clause or Apache-2.0. Tool dependencies are installed through npm, rather than copied into the source repository. The production runtime remains native DOM/SVG/CSS with locally bundled fonts.
 

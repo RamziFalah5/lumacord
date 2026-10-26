@@ -14,7 +14,7 @@ A frontend login scene built around a warm floor lamp, a physical pull cord, and
 | --- | --- |
 | ![Original scene geometry with lamp off](media/off.png) | ![Illuminated lamp and login form](media/on.png) |
 
-[**Live demo**](https://ramzifalah5.github.io/lumacord/) · [Mobile screenshot](media/mobile-on.png)
+[**Live demo**](https://ramzifalah5.github.io/lumacord/) · [Full preview video (MP4)](https://github.com/RamziFalah5/lumacord/releases/download/v1.0.0/lumacord-preview.mp4) · [Mobile screenshot](media/mobile-on.png)
 
 These screenshots and the GIF are genuine captures of the running application.
 

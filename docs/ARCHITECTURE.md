@@ -43,7 +43,7 @@ npm run media:capture -- --frames
 python scripts/encode-preview.py
 ```
 
-The optional encoder requires Pillow. It scales 68 actual browser frames to 960 × 570 with a shared 128-color palette. It does not synthesize application states. Raw frames stay in ignored local storage. On Windows with Chrome installed, `$env:PLAYWRIGHT_CHANNEL='chrome'` can select that browser for tests and captures; otherwise install Chromium with `npx playwright install chromium`. A full video is not included. To record one later, use the browser at 1280 × 760, wait for fonts, then record OFF → downward pull → ON/reveal → pause → downward pull → OFF with no credentials entered.
+The optional encoder requires Pillow. It scales 68 actual browser frames to 960 × 570 with a shared 128-color palette. It does not synthesize application states. Raw frames stay in ignored local storage. On Windows with Chrome installed, `$env:PLAYWRIGHT_CHANNEL='chrome'` can select that browser for tests and captures; otherwise install Chromium with `npx playwright install chromium`. The [full preview MP4](https://github.com/RamziFalah5/lumacord/releases/download/v1.0.0/lumacord-preview.mp4) is a genuine 1280 × 760 browser capture attached to v1.0.0, outside the source repository. To record a replacement, wait for fonts, then capture OFF → downward pull → ON/reveal → pause → downward pull → OFF with no credentials entered.
 
 The real screenshots and GIF belong under `media/`, outside `public/`; they are repository documentation, not production payload. Only the favicon and font notices are copied from `public/`. The original fonts are bundled locally.
 
